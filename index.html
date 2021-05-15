@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Fashion Closet</title>
+	<title>Fashion's Closet</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\bootstrap.css">
 	<script src="bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\js\bootstrap.js"></script>
+	
 </head>
 <body>
 	<div class="con">
@@ -28,19 +29,20 @@
 				<a class="nav-link" aria-current="page"style="color:white" href="#">Home</a>
 			  </li>
 			  <li class="nav-item ">
-				<a class="nav-link" href="#"style="color:white">About</a>
+				<a class="nav-link" href="#about"style="color:white">About</a>
 			  </li>
 			  <li class="nav-item ">
-				<a class="nav-link" href="#"style="color:white;">Product</a>
+				<a class="nav-link" href="#product"style="color:white;">Product</a>
 			  </li>
 			  <li class="nav-item ">
-				<a class="nav-link " href="#"style="color:white">Contact</a>
+				<a class="nav-link " href="#contact"style="color:white">Contact</a>
 			  </li>
 			  <li class="nav-item ">
 				<a class="nav-link " href="#"style="color:white">Search</a>
 			  </li>
 			  <li class="nav-item ">
-				<a class="nav-link" href="#" style="color:black; background-color:white; border-radius: 10px; padding: 5px" onclick="log()">Login</a>
+				<a class="nav-link" id="login" href="login.html"  style="color:black; background-color:white; border-radius: 10px; padding: 5px" onclick="">Login</a>
+				
 			  </li>
 			</ul>
 		  </div>
@@ -71,7 +73,7 @@
 	</div>
 </center>
 	</div>
-	<div class="container-fluid  overflow-hidden">
+	<div class="container-fluid  overflow-hidden" id="about">
 		<center style="font-size: 25px;background-color: gray;margin-left: -10%;width:120%;font-family: 'Times New Roman', Times, serif;">ABOUT US</center>
 		<div class="row flex-row-reverse ">
 			<div class="image col-sm-12  col-md-6 col-lg-6 col-xl-6">
@@ -113,7 +115,7 @@
 	<div class="pr"></div>
 	<center style="font-size: 25px;background-color: gray;width:100%;font-family: 'Times New Roman'">PRODUCTS</center>
 	<br>
-	<div class="products">
+	<div class="products" id="product">
 	<div class="prdct1">
 		<div class="caption1">
 			PRODUCT 1
@@ -167,7 +169,7 @@
 	</div>
 	
 		<center style="font-size: 25px;background-color: gray;width:100%;font-family: 'Times New Roman'">CONTACT US</center>
-	<div class="contactus " >
+	<div class="contactus " id="contact">
 		<div class="row mt-3 " style="background-image: url(images/bg2.jpg); padding:30px;">
 			<div class="last col-sm-12  col-md-6 col-lg-6 ">
 			  <img src="images/contact.png ">
@@ -200,27 +202,11 @@
 			</div>
 	</div>
 
-	
-			  
-			
-	
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	
 </body>
+<script  type="text/javascript" src="js/app.js"></script>
+<script  type="text/javascript" src="js/main.js"></script>
+
 
 </html>
